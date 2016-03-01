@@ -1,5 +1,5 @@
 language: java
-before_install: "git clone -b master https://github.com/Linaveo/mvn-rep.git target/mvn-repo"
+#before_install: "git clone -b master https://github.com/Linaveo/mvn-rep.git target/mvn-repo"
 script: "mvn -X deploy --settings settings.xml"
 env:
   global:
