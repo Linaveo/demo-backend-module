@@ -20,7 +20,7 @@ public class SimpleTest {
     @Test(description = "Test subtraction operation")
     public void test2() {
         System.out.println("Test 2");
-        assert 2 == (2 - 1) : "Value expected !";
+        assert 1 == (2 - 1) : "Value expected !";
     }
 
 }
